@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/googleapis/google-auth-library-python/commit/2ea24b03436765fa3cf279ce148482ff6332136b",
       "git:hexsha": "2ea24b03436765fa3cf279ce148482ff6332136b",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-19T12:13:50.297788+00:00"
     },
     {
       "@id": "https://repolex.ai/r/googleapis/google-auth-library-python/commit/89a883824b437e9be0c97309ed36f35e5c071f11",
