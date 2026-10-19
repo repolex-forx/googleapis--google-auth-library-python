@@ -1,0 +1,11 @@
+{
+  "org": "googleapis",
+  "repo": "google-auth-library-python",
+  "versions": [
+    {
+      "commit": "2ea24b03436765fa3cf279ce148482ff6332136b",
+      "tag": "",
+      "parsed_at": "2026-10-19T12:13:50.299088+00:00"
+    }
+  ]
+}
