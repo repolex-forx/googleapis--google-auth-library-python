@@ -878,7 +878,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/multidict/_multidict_py.py"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/b662fc45829d5892bfc7ee4fdbf9c91e1940d873/chunk-001.nq.gz",
+      "dep": "dep/b662fc45829d5892bfc7ee4fdbf9c91e1940d873.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
