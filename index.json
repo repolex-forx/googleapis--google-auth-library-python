@@ -3,6 +3,11 @@
   "repo": "google-auth-library-python",
   "versions": [
     {
+      "commit": "b662fc45829d5892bfc7ee4fdbf9c91e1940d873",
+      "tag": "v3.0.0.dev0",
+      "parsed_at": "2026-11-22T06:06:34.598446+00:00"
+    },
+    {
       "commit": "2ea24b03436765fa3cf279ce148482ff6332136b",
       "tag": "",
       "parsed_at": "2026-10-19T12:13:50.299088+00:00"
