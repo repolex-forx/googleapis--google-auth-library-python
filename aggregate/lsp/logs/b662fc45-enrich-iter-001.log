@@ -1,0 +1,74 @@
+[2026-11-22T04:47:03Z] === ENRICH ITERATION 1 START | repo=googleapis/google-auth-library-python sha=b662fc45 ===
+[2026-11-22T04:47:03Z] [iter=1] PHASE START: enrich repo=googleapis/google-auth-library-python sha=b662fc45 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b662fc45-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b662fc45829d5892bfc7ee4fdbf9c91e1940d873.nq.gz
+[2026-11-22T04:47:03Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T04:47:28Z] [iter=1] AST store loaded triples=1789224 load_secs=24 mem_mb=946 MB
+[2026-11-22T04:47:28Z] [iter=1] Step 2: Finding LSP targets mem_mb=946 MB
+[2026-11-22T04:47:31Z] [iter=1] LSP targets found call_sites=11432 imports=1272 extends=147 implements=0 secs=3
+[2026-11-22T04:47:34Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=946 MB
+[2026-11-22T04:47:42Z] [iter=1] Position index built positions=126101 nodes_with_types=159778 secs=8 mem_mb=946 MB
+[2026-11-22T04:47:42Z] [iter=1] Step 3: Starting LSP resolution mem_mb=946 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T04:47:42Z] [iter=1] Resolving target type target_type=call_site count=11432
+[2026-11-22T04:47:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=0 resolved=0 errors=0 current=tests/test_external_account.py
+[2026-11-22T04:50:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=1 resolved=345 errors=0 current=tests/test__oauth2client.py
+[2026-11-22T04:50:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=3 resolved=423 errors=0 current=tests/compute_engine/test_credentials.py
+[2026-11-22T04:52:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=4 resolved=546 errors=0 current=google/oauth2/credentials.py
+[2026-11-22T04:52:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.6 files_done=6 resolved=642 errors=0 current=tests/transport/test__custom_tls_signer.py
+[2026-11-22T04:53:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=8 resolved=769 errors=0 current=google/auth/jwt.py
+[2026-11-22T04:53:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=9 resolved=886 errors=0 current=tests/oauth2/test_webauthn_handler_factory.py
+[2026-11-22T04:55:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=11 resolved=1022 errors=0 current=tests/test_downscoped.py
+[2026-11-22T04:56:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.1 files_done=12 resolved=1167 errors=0 current=tests_async/oauth2/test_credentials_async.py
+[2026-11-22T04:57:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=14 resolved=1370 errors=0 current=tests/oauth2/test_sts.py
+[2026-11-22T04:58:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.3 files_done=15 resolved=1461 errors=0 current=google/auth/credentials.py
+[2026-11-22T04:59:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=17 resolved=1585 errors=0 current=tests/test_aws.py
+[2026-11-22T05:01:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.6 files_done=18 resolved=1909 errors=0 current=google/auth/aio/transport/sessions.py
+[2026-11-22T05:03:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.6 files_done=20 resolved=2131 errors=0 current=tests/test_impersonated_credentials.py
+[2026-11-22T05:05:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=21 resolved=2365 errors=0 current=tests_async/transport/test_aiohttp_requests.py
+[2026-11-22T05:06:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.6 files_done=23 resolved=2514 errors=0 current=tests_async/oauth2/test_service_account_async.py
+[2026-11-22T05:07:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.1 files_done=24 resolved=2575 errors=0 current=tests/test_metrics.py
+[2026-11-22T05:07:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.7 files_done=27 resolved=2663 errors=0 current=tests_async/oauth2/test__client_async.py
+[2026-11-22T05:08:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.4 files_done=29 resolved=2759 errors=0 current=tests_async/test_jwt_async.py
+[2026-11-22T05:09:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.7 files_done=31 resolved=2934 errors=0 current=tests_async/conftest.py
+[2026-11-22T05:10:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=35 resolved=3068 errors=0 current=tests/oauth2/test_gdch_credentials.py
+[2026-11-22T05:12:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=37 resolved=3333 errors=0 current=google/auth/_agent_identity_utils.py
+[2026-11-22T05:12:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.8 files_done=40 resolved=3442 errors=0 current=tests/test_jwt.py
+[2026-11-22T05:13:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.9 files_done=41 resolved=3603 errors=0 current=google/auth/aws.py
+[2026-11-22T05:14:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.4 files_done=42 resolved=3721 errors=0 current=tests/compute_engine/test__mtls.py
+[2026-11-22T05:15:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.4 files_done=44 resolved=3878 errors=0 current=tests/transport/test__mtls_helper.py
+[2026-11-22T05:16:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.1 files_done=45 resolved=3975 errors=0 current=google/auth/aio/credentials.py
+[2026-11-22T05:17:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.0 files_done=47 resolved=4171 errors=0 current=tests/test__default.py
+[2026-11-22T05:18:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.1 files_done=48 resolved=4413 errors=0 current=google/auth/transport/_custom_tls_signer.py
+[2026-11-22T05:18:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.7 files_done=50 resolved=4539 errors=0 current=tests/transport/test_requests.py
+[2026-11-22T05:20:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.1 files_done=51 resolved=4716 errors=0 current=google/auth/impersonated_credentials.py
+[2026-11-22T05:20:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.8 files_done=53 resolved=4830 errors=0 current=tests/transport/test_urllib3.py
+[2026-11-22T05:21:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.6 files_done=54 resolved=4925 errors=0 current=samples/cloud-client/snippets/custom_okta_supplier.py
+[2026-11-22T05:22:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.3 files_done=59 resolved=5076 errors=0 current=system_tests/system_tests_sync/test_mtls_http.py
+[2026-11-22T05:22:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.9 files_done=61 resolved=5174 errors=0 current=tests/test_external_account_authorized_user.py
+[2026-11-22T05:23:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.7 files_done=62 resolved=5266 errors=0 current=tests/oauth2/test_webauthn_handler.py
+[2026-11-22T05:24:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.4 files_done=65 resolved=5364 errors=0 current=tests_async/test_credentials_async.py
+[2026-11-22T05:25:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.4 files_done=67 resolved=5496 errors=0 current=tests/test_app_engine.py
+[2026-11-22T05:25:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.9 files_done=69 resolved=5614 errors=0 current=google/auth/pluggable.py
+[2026-11-22T05:27:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.1 files_done=71 resolved=5760 errors=0 current=google/auth/_default_async.py
+[2026-11-22T05:28:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.9 files_done=74 resolved=5884 errors=0 current=system_tests/system_tests_sync/test_downscoping.py
+[2026-11-22T05:28:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.6 files_done=78 resolved=6038 errors=0 current=noxfile.py
+[2026-11-22T05:29:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.1 files_done=83 resolved=6158 errors=0 current=google/auth/external_account_authorized_user.py
+[2026-11-22T05:29:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.8 files_done=87 resolved=6271 errors=0 current=tests_async/transport/async_compliance.py
+[2026-11-22T05:30:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.3 files_done=93 resolved=6376 errors=0 current=system_tests/system_tests_sync/test_compute_engine.py
+[2026-11-22T05:30:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.9 files_done=98 resolved=6494 errors=0 current=google/auth/aio/transport/aiohttp.py
+[2026-11-22T05:31:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.5 files_done=101 resolved=6557 errors=0 current=samples/cloud-client/snippets/noxfile.py
+[2026-11-22T05:32:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.1 files_done=106 resolved=6684 errors=0 current=google/auth/compute_engine/credentials.py
+[2026-11-22T05:32:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.7 files_done=108 resolved=6777 errors=0 current=google/auth/identity_pool.py
+[2026-11-22T05:33:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.2 files_done=109 resolved=6870 errors=0 current=google/auth/aio/transport/__init__.py
+[2026-11-22T05:34:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.0 files_done=115 resolved=6988 errors=0 current=google/auth/_service_account_info.py
+[2026-11-22T05:34:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.6 files_done=126 resolved=7110 errors=0 current=samples/cloud-client/snippets/verify_google_idtoken.py
+[2026-11-22T05:35:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.2 files_done=135 resolved=7229 errors=0 current=google/auth/transport/_requests_base.py
+[2026-11-22T05:35:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.7 files_done=146 resolved=7328 errors=0 current=system_tests/system_tests_sync/conftest.py
+[2026-11-22T05:36:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.2 files_done=156 resolved=7401 errors=0 current=system_tests/system_tests_async/test_default.py
+[2026-11-22T05:36:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.8 files_done=167 resolved=7464 errors=0 current=.kokoro/test-samples-impl.sh
+[2026-11-22T05:36:57Z] [iter=1] Target type resolved target_type=call_site resolved=7471 errors=0 secs=2955 mem_mb=946 MB
+[2026-11-22T05:36:57Z] [iter=1] Resolving target type target_type=import_statement count=1272
+[2026-11-22T05:37:04Z] [iter=1] Target type resolved target_type=import_statement resolved=463 errors=0 secs=6 mem_mb=946 MB
+[2026-11-22T05:37:04Z] [iter=1] Resolving target type target_type=extends_clause count=147
+[2026-11-22T05:37:06Z] [iter=1] Target type resolved target_type=extends_clause resolved=147 errors=0 secs=3 mem_mb=946 MB
+[2026-11-22T06:04:09Z] [iter=1] Step 5: Writing final enrichment file triples=129369
+[2026-11-22T06:04:11Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/b662fc45829d5892bfc7ee4fdbf9c91e1940d873.nq.gz size_kb=3245
+[2026-11-22T06:04:11Z] [iter=1] PHASE END: enrich elapsed_s=4627 elapsed_min=77.1 total_triples=129369

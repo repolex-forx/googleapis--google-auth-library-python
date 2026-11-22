@@ -781,6 +781,103 @@
       ],
       "ast": [
         "aggregate/ast/b662fc45829d5892bfc7ee4fdbf9c91e1940d873/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/b662fc45829d5892bfc7ee4fdbf9c91e1940d873.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/requests/sessions.py"
+        },
+        {
+          "packageName": "urllib3",
+          "ecosystem": "PYPI",
+          "version": "2.8.0",
+          "githubOrg": "urllib3",
+          "githubRepo": "urllib3",
+          "githubCommit": "b1d30ab61fe0db8f11092805e8c5ac43e091064a",
+          "githubTag": "2.8.0",
+          "githubUrl": "https://github.com/urllib3/urllib3",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/urllib3/poolmanager.py"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "26.3.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/packaging/version.py"
+        },
+        {
+          "packageName": "certifi",
+          "ecosystem": "PYPI",
+          "version": "2026.11.20",
+          "githubOrg": "certifi",
+          "githubRepo": "python-certifi",
+          "githubCommit": "bf6a4859116b0cba96673893e394298bbe529b1f",
+          "githubTag": "2026.11.20",
+          "githubUrl": "https://github.com/certifi/python-certifi",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/certifi/__init__.py"
+        },
+        {
+          "packageName": "cachetools",
+          "ecosystem": "PYPI",
+          "version": "8.0.2",
+          "githubOrg": "tkem",
+          "githubRepo": "cachetools",
+          "githubCommit": "0876d5eef0f8abbd7af77a355b49ebc07a823239",
+          "githubTag": "v8.0.2",
+          "githubUrl": "https://github.com/tkem/cachetools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/cachetools/__init__.py"
+        },
+        {
+          "packageName": "aiohttp",
+          "ecosystem": "PYPI",
+          "version": "3.14.5",
+          "githubOrg": "aio-libs",
+          "githubRepo": "aiohttp",
+          "githubCommit": "f17c631bddcfd4ec712342db28f1d3381a3fec71",
+          "githubTag": "v3.14.5",
+          "githubUrl": "https://github.com/aio-libs/aiohttp",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/aiohttp/client_reqrep.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        },
+        {
+          "packageName": "multidict",
+          "ecosystem": "PYPI",
+          "version": "7.2.1",
+          "githubOrg": "aio-libs",
+          "githubRepo": "multidict",
+          "githubCommit": "f50870cb46f0146579a1b9d69eeb3f57776eee63",
+          "githubTag": "v7.2.1",
+          "githubUrl": "https://github.com/aio-libs/multidict",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/multidict/_multidict_py.py"
+        }
       ]
     }
   ],
